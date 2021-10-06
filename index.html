@@ -11,12 +11,26 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container h-auto">
+    <div class="container-fluid">
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
       <div class="row justify-content-lg-center">
-        <div class="col-md-12" id="navbar">.col-md-12</div>
+        <nav>
+          <div class="col-md-12" id="navbar">.col-md-12</div>
+        </nav>
       </div>
     
+      <!-- this will be the jumbotron  -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4 text-center">This is a test-tron</h1>
+          <hr class="my-4">
+          <p class="lead">Focus all your attention on me as i lorem-ipsum dump Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eum necessitatibus minus esse, animi labore, repellendus pariatur eaque, aliquam soluta quae architecto ducimus magnam voluptate modi tempora non vitae mollitia?</p>
+          <a class="btn btn-primary btn-lg" href="https://stackoverflow.com/questions/63141494/how-to-create-jumbotron-in-bootstrap-5" role="button">Want to learn more?</a>
+
+        </div>
+
+      </div>
+
       <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
       <div class="row justify-content-md-center h-75" id="center-columns">
         <div class="col-6 col-md-6" id="left-col">
